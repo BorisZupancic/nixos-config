@@ -1,5 +1,6 @@
 # Ignore the result link created by nixos-rebuild
 result
+result-*
 
 # Ignore swap files and temporary editor files
 *.swp
