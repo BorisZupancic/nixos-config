@@ -1,0 +1,13 @@
+# Ignore the result link created by nixos-rebuild
+result
+
+# Ignore swap files and temporary editor files
+*.swp
+*~
+.DS_Store
+
+# If you ever use 'nix-direnv', ignore the local environment files
+.direnv/
+
+# Optional: If you decide to keep secrets in a separate file
+# secrets.nix
