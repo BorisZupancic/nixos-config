@@ -11,7 +11,6 @@
 	./modules/services/gpg.nix
 
 	./modules/system/boot.nix
-	./modules/system/scientific.nix
 	./modules/system/fonts.nix
 
 	./users/borisz

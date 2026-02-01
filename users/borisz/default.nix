@@ -13,10 +13,12 @@
 
   home-manager.users.borisz = { pkgs, ... }: {
   	imports = [ 
+	    ./git.nix
 	    ./nvim.nix
 	    ./terminal.nix
 	    ./apps.nix
 	    ./firefox.nix
+	    ./scientific.nix
 	];
 
 	# Essential: Match this to your NixOS version (e.g., "25.11")
