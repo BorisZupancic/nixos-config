@@ -14,5 +14,7 @@
 
     zotero
     poppler_utils # This provides pdftotext and pdfinfo
+    
+    fastfetch
     ];
 }
